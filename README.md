@@ -25,3 +25,9 @@ Elas se relacionam pela coluna de código de barras de cada material. Devemos ai
 
 Optamos por importar os dados diretamente do Git Hub passando o endereço do link “Raw” como origem.
 
+# Fazendo a limpeza
+
+Iremos começar a manipular os dados, ou seja, tirar o que não for necessário, agrupar, atribuir novas informações, etc. Claro, os dados precisam fazer sentido e estar preparados para o contexto da análise a ser realizada. Por isso, a “limpeza” dos dados é uma parte essencial em um projeto de ciência de dados.
+
+Iniciaremos a limpeza, atribuindo mais contexto aos seus dados para depois aprofundar-se nas análises.
+
