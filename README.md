@@ -54,4 +54,10 @@ Chegou a hora de começar a explorar os seus dados!
 
 Um dos objetivos de uma biblioteca é promover o uso da informação.
 
-Por isso, o empréstimo dos materiais em uma biblioteca é uma das formas de se indicar o uso daquela informação. Entender a quantidade e quando se emprestaram os livros é uma das primeiras formas de fazer uma análise desse tipo.
+Por isso, o empréstimo dos materiais em uma biblioteca é uma das formas de se indicar o uso daquela informação. Entender a quantidade e quando se emprestaram os livros é uma das primeiras formas de fazer uma análise desse tipo. 
+
+A diretoria da biblioteca gostaria de entender se a quantidade de empréstimos está diminuindo, aumentando ou permanecendo igual ao decorrer dos últimos anos. Para isso, verifique qual é a quantidade total de exemplares emprestados por cada ano e plote um gráfico de linhas. Depois, faça uma análise em relação à visualização gerada.
+
+Atente-se para a quantidade de exemplares emprestados, e não de empréstimos realizados.
+
+A diretoria também gostaria de gerenciar melhor os recursos humanos da biblioteca de acordo com a demanda de trabalho existente.
