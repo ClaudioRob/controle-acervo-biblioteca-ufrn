@@ -25,7 +25,7 @@ Elas se relacionam pela coluna de código de barras de cada material. Devemos ai
 
 Optamos por importar os dados diretamente do Git Hub passando o endereço do link “Raw” como origem.
 
-# Fazendo a limpeza
+# As primeiras manipulações
 
 Iremos começar a manipular os dados, ou seja, tirar o que não for necessário, agrupar, atribuir novas informações, etc. Claro, os dados precisam fazer sentido e estar preparados para o contexto da análise a ser realizada. Por isso, a “limpeza” dos dados é uma parte essencial em um projeto de ciência de dados.
 
@@ -48,9 +48,10 @@ Você deve ter visto que tem uma coluna identificada como “localização” e 
 - 800 a 899: Linguagem. Língua. Linguística.
 - 900 a 999: Geografia. Biografia. História."
 
-Portanto, se um material tiver um código de localização 720, ele está dentro da classe geral de “Belas Artes”; ou se tiver um código 028, estará dentro da classe geral de “Generalidades. Ciência e conhecimento”.
-Para isso, crie uma nova coluna com os valores da localização, para refletir a respectiva classe geral na CDU.
-Você precisará ainda excluir alguns dados e modificar outros.  
+# Chegamos ao terceiro do #7DaysOfCode de Python Pandas!
 
-A coluna "registro_sistema", por exemplo, não está fazendo sentido para essa análise, por isso você pode exclui-la.
-Já a coluna da matricula (“matricula_ou_siape”) não está com um formato muito legível. Transforme-a em formato String.
+Chegou a hora de começar a explorar os seus dados!
+
+Um dos objetivos de uma biblioteca é promover o uso da informação.
+
+Por isso, o empréstimo dos materiais em uma biblioteca é uma das formas de se indicar o uso daquela informação. Entender a quantidade e quando se emprestaram os livros é uma das primeiras formas de fazer uma análise desse tipo.
