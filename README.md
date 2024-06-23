@@ -48,7 +48,7 @@ Você deve ter visto que tem uma coluna identificada como “localização” e 
 - 800 a 899: Linguagem. Língua. Linguística.
 - 900 a 999: Geografia. Biografia. História."
 
-# Chegamos ao terceiro do #7DaysOfCode de Python Pandas!
+# Explorando os dados
 
 Chegou a hora de começar a explorar os seus dados!
 
@@ -84,3 +84,46 @@ Além do gerenciamento anual das atividades, a diretoria também necessita que s
 Plote um gráfico de barras e analise quais seriam os melhores horários para alocar as demais atividades que não sejam de atendimento ao usuário.
 
 ![image](https://github.com/ClaudioRob/controle-acervo-biblioteca-ufrn/assets/44467803/754d6ca0-0da9-4f17-9cac-2b5f21fb7183)
+
+# Iniciando as análises
+
+Iremos questionar ainda mais os nossos dados para extrair ainda mais informações deles. O objetivo será entender a quantidade de empréstimos a partir das variáveis categóricas. Vamos explorar algumas das variáveis categóricas das quais precisaremos extrair mais informações. Elas são:
+
+* Tipo de vínculo
+* Coleção
+* Biblioteca
+* Classificação geral da CDU
+
+Ao se analisar uma nova variável, é bem interessante verificar cada uma listando quais são os valores únicos dentro delas. Entender quais os temas mais procurados pelos usuários é fundamental para o desenvolvimento de novos planos de marketing do acervo. Para que possam não apenas fortalecer o que está sendo utilizado, mas também promover o que não está.
+
+Gere uma tabela de frequência e com o percentual para cada variável. Como é um trabalho repetitivo, crie uma função que gere a tabela com os valores.
+
+|tipo\_vinculo\_usuario|quantidade|percentual|
+|---|---|---|
+|ALUNO DE GRADUAÇÃO|1612324|77\.8|
+|ALUNO DE PÓS-GRADUAÇÃO|302541|14\.6|
+|DOCENTE|70981|3\.4|
+|SERVIDOR TÉCNICO-ADMINISTRATIVO|32184|1\.6|
+|ALUNO MÉDIO/TÉCNICO|28029|1\.4|
+|DOCENTE EXTERNO|23949|1\.2|
+|USUÁRIO EXTERNO|2509|0\.1|
+|OUTROS|5|0\.0|
+
+# Tipos de visualizações - Conhecendo o Boxplot
+
+O Boxplot é uma das visualizações mais poderosas que existe, pois ele permite que você visualize medidas estatísticas como a mediana, os quartis, os valores mínimos e máximos e os valores atípicos outliers. O gráfico possui uma estrutura formada por uma caixa retangular, uma linha cortando essa caixa e as hastes (ou bigodes) ligadas a caixa.
+
+![image](https://github.com/ClaudioRob/controle-acervo-biblioteca-ufrn/assets/44467803/a4fc370b-096a-4413-bca2-2d0d585088b4)
+
+Os quartis são representados pelos limites da caixa, do quartil inferior (Q1) ao quartil superior (Q3). A mediana (é o Q2) é representada pela linha. Os valores mínimos e máximos são as extremidades das hastes e os outliers são todos os pontos além destes limites.
+
+Desenvolver estratégias para o uso da informação é uma tarefa constante, devido às diversas mudanças que ocorrem o tempo todo: os usuários estão evoluindo seus conhecimentos, novos alunos chegam, alunos que se formam saem e as informações estão sempre em movimento e transformação.
+
+Por este motivo, é importante realizar avaliações constantes do uso da biblioteca e entender em quais cenários (tipos de usuários, estratégias de marketing, atualização de acervo, cenário sócio-político interno e externo) é melhor manter a estratégia atual ou mudá-la.
+
+Você vai fazer dois recortes em seus dados para entender como eles se distribuíram ao decorrer desses anos e, desta forma, possa trazer inferências para levar à diretoria da biblioteca, a fim de que eles possam tomar decisões para o ano atual.
+
+Para isso, você vai avaliar dentre os alunos de graduação e pós graduação a distribuição de empréstimos mensais por ano realizados entre 2010 e 2020 da coleção que tiver a maior frequência de empréstimos.
+
+Plote um gráfico para cada tipo de usuário.
+Tenha um boxplots para cada ano e analise o que ocorreu.
