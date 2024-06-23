@@ -64,17 +64,18 @@ A diretoria também gostaria de gerenciar melhor os recursos humanos da bibliote
 
 Portanto, criaremos uma tabela com a quantidade total de exemplares emprestados por mês e descobrir quais meses são os que possuem a maior quantidade de empréstimos realizados. Plote um gráfico de linhas.
 
-	mes_emprestimo	total_emprestimos
-0	           Jan	67514
-1	           Fev	210200
-2	           Mar	252185
-3	           Abr	208725
-4	           Mai	202530
-5	           Jun	138123
-6	           Jul	123790
-7	           Ago	232793
-8	           Set	208234
-9	           Out	188410
-10	         Nov	164222
-11	         Dez	75796
-
+| mes_emprestimo  | total_emprestimos |
+| ------------- | ------------- |
+| Janeiro	| 67514 	|
+| Fevereiro     | 210200  	|
+| Março		| 252185  	|
+| Abril         | 208725  	|
+| Maio          | 202530  	|
+| Junho         | 138123  	|	|
+| Julho         | 123790  	|
+| Agosto        | 232793 	|
+| Setembro      | 208234  	|
+| Outubro       | 188410  	|
+| Novembro      | 164222 	|
+| Dezembro      | 75796 	|
+| ------------- | ------------- |
