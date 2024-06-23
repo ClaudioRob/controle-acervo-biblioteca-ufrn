@@ -78,4 +78,3 @@ Portanto, criaremos uma tabela com a quantidade total de exemplares emprestados 
 | Outubro       | 188410  	|
 | Novembro      | 164222 	|
 | Dezembro      | 75796 	|
-| ------------- | ------------- |
