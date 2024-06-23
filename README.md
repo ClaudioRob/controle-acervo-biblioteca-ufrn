@@ -78,3 +78,9 @@ Portanto, criaremos uma tabela com a quantidade total de exemplares emprestados 
 | Outubro       | 188410  	|
 | Novembro      | 164222 	|
 | Dezembro      | 75796 	|
+
+Além do gerenciamento anual das atividades, a diretoria também necessita que seja planejada uma programação diária das atividades. Por este motivo, verifique quais foram os horários com maior quantidade de empréstimos ao longo de um dia inteiro.
+
+Plote um gráfico de barras e analise quais seriam os melhores horários para alocar as demais atividades que não sejam de atendimento ao usuário.
+
+![image](https://github.com/ClaudioRob/controle-acervo-biblioteca-ufrn/assets/44467803/754d6ca0-0da9-4f17-9cac-2b5f21fb7183)
