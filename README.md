@@ -60,4 +60,21 @@ A diretoria da biblioteca gostaria de entender se a quantidade de empréstimos e
 
 Atente-se para a quantidade de exemplares emprestados, e não de empréstimos realizados.
 
-A diretoria também gostaria de gerenciar melhor os recursos humanos da biblioteca de acordo com a demanda de trabalho existente.
+A diretoria também gostaria de gerenciar melhor os recursos humanos da biblioteca de acordo com a demanda de trabalho existente. Há uma suspeita interna de que os meses com maior número de exemplares emprestados sejam março e setembro, mas não foi realizada uma análise real sobre isso.
+
+Portanto, criaremos uma tabela com a quantidade total de exemplares emprestados por mês e descobrir quais meses são os que possuem a maior quantidade de empréstimos realizados. Plote um gráfico de linhas.
+
+	mes_emprestimo	total_emprestimos
+0	           Jan	67514
+1	           Fev	210200
+2	           Mar	252185
+3	           Abr	208725
+4	           Mai	202530
+5	           Jun	138123
+6	           Jul	123790
+7	           Ago	232793
+8	           Set	208234
+9	           Out	188410
+10	         Nov	164222
+11	         Dez	75796
+
