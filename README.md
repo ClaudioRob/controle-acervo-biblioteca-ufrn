@@ -1,4 +1,4 @@
-# Projeto da Alura Por Francisco Froz
+# Controle do acervo de livros da biblioteca da Univeersidade Federal do Rio Grande do Norte(UFRN)  Por Francisco Froz
 
 Esste projeto faz parte da Jornada #7DaysOfCodeWithPythonPandas onde iremos explorar os dados de empréstimos dos acervos do sistema de bibliotecas da UFRN. Um dos objetivos de uma biblioteca é garantir que os materiais informacionais estejam sendo utilizados. Os empréstimos realizados podem ser um indicador, mesmo que de forma básica (pois você não consegue garantir que haja uma leitura ou utilização real).
 
