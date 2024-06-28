@@ -1,5 +1,5 @@
 # Controle do acervo de livros da biblioteca da Universidade Federal do Rio Grande do Norte(UFRN)
-* Este repositório foi criado com a finalidade de estudo em Pyrhon & Pandas. O código original desse projeto foi desenvolvido por Francisco Froz (Alura). Repositório:  https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/tree/main
+* Esse projeto foi criado com a finalidade de estudo em Pyrhon & Pandas. O código original, desenvolvido por Francisco Froz (Alura), encontra-se nesse [Repositório]( https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/tree/main).
 
 Esste projeto faz parte da Jornada #7DaysOfCodeWithPythonPandas onde iremos explorar os dados de empréstimos dos acervos do sistema de bibliotecas da UFRN. Um dos objetivos de uma biblioteca é garantir que os materiais informacionais estejam sendo utilizados. Os empréstimos realizados podem ser um indicador, mesmo que de forma básica (pois você não consegue garantir que haja uma leitura ou utilização real).
 
@@ -143,5 +143,33 @@ Já os alunos de pós graduação tiveram um aspecto diferente em relação ao d
 
 Nos dois recortes visualizamos que a partir de 2018 tivemos um forte declínio e é um alerta para que a direção possa entender o que está ocorrendo.
 
+# Vamos enriquecer nossas análises
 
+As instituições de ensino superior (IES) têm a necessidade de passar por avaliações do Ministério da Educação (MEC) para que possam ofertar e continuar ofertando cursos de graduação e pós-graduação.
 
+A biblioteca universitária faz parte de um dos indicadores da avaliação dos cursos, em principalmente três aspectos: acervo, infraestrutura e serviços.
+
+Dentre os serviços, são avaliados se existem recursos de bases referenciais para pesquisa, se há treinamentos para os usuários utilizarem os materiais, e a presença de indicadores sobre o uso dos materiais do acervo (empréstimos, consultas) dentre outros tópicos.
+
+Iremos calcular a quantidade de empréstimos realizados entre 2015 e 2020 por cada curso de graduação que passará pela avaliação.
+
+Os cursos serão:
+
+* Biblioteconomia
+* Ciências sociais
+* Comunicação social
+* Direito
+* Filosofia
+* Pedagogia
+
+A universidade forneceu os dados dos usuários, mas uma parte deles está em planilhas de [Excel]('https://empresas.alura.com.br/e3t/Ctc/I8+113/d2z6gD04/MWbsSXwSfFwW484Xhg4S3sq5W7lBRbf5gsB2WN56dXgK5kvg0W5BWr2F6lZ3n0W4dHGrH8Js6srW20GGff4-YRM-W74fHT01LQGY9W2Yd-LJ2p5QQDVG15Py93yyD4W60wq3T3vlDfFW3xPldT8Jk_CvW1tK9pq5MJj0WW8BrfGy8ZhxW-V_T15x5B4tdPW13lNd33VXszcW4Dtt5L6b8qlzVnvJL082Q3p5N3hbcyVx9wVfW6sxN1D7QvJJ0W7P_Hhb3f7T0xW71GKBs6jD_4ZF74QPfXmzB0N9b6nkMG7TCgW5-8Fp18hlWmHW7Wvbd82qyP-9W329sJS1sBg7lW6NbVvQ59DsJBN3b7hwd24GnQW4M_1f617v9jYW7RngHv1c-dGTW2s7lfH5Bwf5cW67KzNh2HydHvN2MQntZ-TwgTN3sS5x9CrDB7W8kp5_66LqxsqW5TxPRW4sq79QW5_J0Zl3JZbLCW851qT54lvhVRf8CSzgx04), a outra parte veio através de uma [API](https://empresas.alura.com.br/e3t/Ctc/I8+113/d2z6gD04/MWbsSXwSfFwW484Xhg4S3sq5W7lBRbf5gsB2WN56dXh05kvg0W69t95C6lZ3mBW7tvtvG3jhtR7W7yRMDX87Tx7PW1jmrnw4HdM_9W2Pbxhv3nWlr9W3rRwTw26TT2XVKZh2n365h54W8WlCrm2HzsWgW2TmncV9h24MQN8kncW3T4QNnVw165D9dPsRXW34tB118975SwW6JxSXX3g7vJnW7BHQK95CG_bbW2k2T4Y843q6lVJbytg22JqSXW7Xzg1p30zHttW9dMByv7JYNhNW1Lq83-9gxDv3N90HhMBzQhySW16yvcJ21J0D6W5wQTB86Q1TlSW1bmDF-5QtPc6W4YXHZF942LYbW3yN27x5y52_NW49XLbT5wv_V2W8nnrpx7jN-VtW2xyTBp1gN5YWN6t2NsJcZDpWW90YpJ75c__78W5l38c45Tt_qZW5XdRf6651XX7W7P8T-75tB6BmN2lcphH-s90cW7lcBWf883bNQW62zCx671BzLtW6rKQHK2Jcypgf2ZXNRR04) do sistema em formato JSON.
+[exemplo](https://exemplo.com/)
+
+Extraia os dados destes arquivos, agrupe-os em apenas um só, e verifique depois a quantidade de empréstimos.
+
+Gere uma tabela com as seguintes características:
+
+* Índice: Cursos
+* Colunas: Ano
+* Valores: Quantidade de empréstimos
+* Total: Acrescente uma linha e uma coluna de total a tabela
