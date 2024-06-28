@@ -25,6 +25,9 @@ Elas se relacionam pela coluna de código de barras de cada material. Devemos ai
 
 Optamos por importar os dados diretamente do Git Hub passando o endereço do link “Raw” como origem.
 
+#### URL base do repositório no GitHub: 
+"https://api.github.com/repos/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/contents/Dia_1-Importando_dados/Datasets/dados_emprestimos"
+
 # As primeiras manipulações
 
 Iremos começar a manipular os dados, ou seja, tirar o que não for necessário, agrupar, atribuir novas informações, etc. Claro, os dados precisam fazer sentido e estar preparados para o contexto da análise a ser realizada. Por isso, a “limpeza” dos dados é uma parte essencial em um projeto de ciência de dados.
@@ -125,5 +128,19 @@ Você vai fazer dois recortes em seus dados para entender como eles se distribu�
 
 Para isso, você vai avaliar dentre os alunos de graduação e pós graduação a distribuição de empréstimos mensais por ano realizados entre 2010 e 2020 da coleção que tiver a maior frequência de empréstimos.
 
-Plote um gráfico para cada tipo de usuário.
-Tenha um boxplots para cada ano e analise o que ocorreu.
+Distribuição de empréstimos mensais por ano realizados entre 2010 e 2020 dos alunos de graduação
+![image](https://github.com/ClaudioRob/controle-acervo-biblioteca-ufrn/assets/44467803/ea5f5490-4d2e-442f-853a-a935155f774e)
+
+É importante ressaltar que esse recorte, reflete grande parte da estrutura geral do conjunto de dados, pois são os tipos de usuários com maior frequência (alunos de graduação) e da coleção mais utilizada por eles (acervo circulante). Com o boxplot é possível observar a oscilação da quantidade de empréstimos realizados mensalmente durante cada ano. 
+
+Além da análise geral realizada (declínio a partir de 2013, forte baixa em 2019), chama atenção os anos de 2014 e 2017. Mas se diferenciam principalmente porque em 2014 houve um declínio e em 2017 houve um aumento, em relação aos anos anteriores. Seria interessante entender com a direção das bibliotecas o que ocorreu nessas datas para que pudéssemos ter um contexto melhor da realidade do negócio.
+
+Distribuição de empréstimos mensais por ano realizados entre 2010 e 2020 dos alunos de pós-graduação
+![image](https://github.com/ClaudioRob/controle-acervo-biblioteca-ufrn/assets/44467803/b1315c40-2bdb-4c2a-a267-52d2923e3592)
+
+Já os alunos de pós graduação tiveram um aspecto diferente em relação ao declínio a partir de 2013. A linha mediana foi diminuindo devagar até 2018. Entretanto valores máximos foram superiores, apenas caindo de fato em 2019. Nos dois gráficos podemos observar um grande aumento entre 2010 e 2013, o que nos leva a pensar em quais procedimentos estavam sendo realizados neste período para que houvesse esse crescimento.
+
+Nos dois recortes visualizamos que a partir de 2018 tivemos um forte declínio e é um alerta para que a direção possa entender o que está ocorrendo.
+
+
+
