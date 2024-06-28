@@ -1,4 +1,5 @@
-# Controle do acervo de livros da biblioteca da Universidade Federal do Rio Grande do Norte(UFRN)  Por Francisco Froz
+# Controle do acervo de livros da biblioteca da Universidade Federal do Rio Grande do Norte(UFRN)
+* Este repositório foi criado com a finalidade de estudo em Pyrhon & Pandas. O código original desse projeto foi desenvolvido por Francisco Froz (Alura). Repositório:  https://github.com/FranciscoFoz/7_Days_of_Code_Alura-Python-Pandas/tree/main
 
 Esste projeto faz parte da Jornada #7DaysOfCodeWithPythonPandas onde iremos explorar os dados de empréstimos dos acervos do sistema de bibliotecas da UFRN. Um dos objetivos de uma biblioteca é garantir que os materiais informacionais estejam sendo utilizados. Os empréstimos realizados podem ser um indicador, mesmo que de forma básica (pois você não consegue garantir que haja uma leitura ou utilização real).
 
