@@ -183,3 +183,10 @@ Gere uma tabela com as seguintes características:
 |FILOSOFIA|6950|7576|7389|6296|5572|832|34615|
 |PEDAGOGIA|7189|7153|7434|6518|5869|866|35029|
 |TOTAL|44224|44087|45186|39353|34864|5124|212838|
+
+# Chegamos ao final do Projeto
+
+A diretoria da biblioteca está montando um plano de ação de marketing focado nos alunos da pós-graduação. Para isso, precisará analisar a diferença percentual de empréstimos realizados nos últimos anos (2017, 2018, 2019) para cada curso. Devido à pandemia do COVID-19, ela não poderá utilizar os dados de 2020 e 2021. Entretanto, seu colega de equipe já realizou uma análise de previsão de empréstimos de 2022 e a disponibilizou para que você também possa realizar o comparativo entre 2019-2022.
+
+Você precisará criar uma tabela com as diferenças percentuais de empréstimos entre 2017-2018, 2018-2019, 2019-2022.
+
