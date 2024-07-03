@@ -190,3 +190,19 @@ A diretoria da biblioteca está montando um plano de ação de marketing focado 
 
 Você precisará criar uma tabela com as diferenças percentuais de empréstimos entre 2017-2018, 2018-2019, 2019-2022.
 
+|index|Curso|2018|2019|2022|
+|---|---|---|---|---|
+|0|Administração|-8\.75|-26\.94|-84\.1|
+|1|Arquitetura e urbanismo|-13\.22|-5\.16|-85\.86|
+|2|Artes cênicas|-1\.56|-12\.97|-87\.36|
+|3|Bioinformática|-12\.6|-4\.65|-85\.59|
+|4|Bioquímica|-15\.26|5\.81|-86\.78|
+|5|Ciência e engenharia de materiais|-8\.89|-4\.83|-83\.67|
+|6|Ciência, tecnologia e inovação|-2\.07|-14\.33|-85\.04|
+|7|Ciências da saúde|-18\.41|-8\.11|-87\.18|
+|8|Ciências odontológicas|5\.22|-15\.98|-83\.51|
+|9|Design|-19\.1|0\.16|-86\.2|
+|10|Engenharia civil|-12\.92|-4\.79|-87\.23|
+|11|Engenharia de software|-10\.29|-15\.08|-86\.01|
+|12|Filosofia|-5\.62|-13\.43|-82\.97|
+|13|Gestão da informação e do conhecimento|-16\.55|-6\.35|-85\.77|
